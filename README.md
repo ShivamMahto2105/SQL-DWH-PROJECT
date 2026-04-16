@@ -64,12 +64,10 @@ This project follows the **Medallion Architecture**:
 ---
 
 # 🛠️ Tools & Technologies
---[Datasets](https://github.com/ShivamMahto2105/SQL-DWH-PROJECT/tree/main/datasets)
-- SQL Server Express 
-- SQL Server Management Studio (SSMS)  
-- Draw.io  
-- Git & GitHub  
-- Notion  
+- [Datasets](https://github.com/ShivamMahto2105/SQL-DWH-PROJECT/tree/main/datasets): Access to the project dataset (csv files).
+- SQL Server Express : Lightweight server for hosting your SQL database.
+- SQL Server Management Studio (SSMS) : GUI for managing and interacting with databases.
+- Draw.io : Design data architecture, models, flows, and diagrams.
 
 ---
 
@@ -80,10 +78,10 @@ data-warehouse-project/
 │
 ├── datasets/                # Raw ERP & CRM data
 ├── docs/                    # Documentation & diagrams
-│   ├── etl.drawio
-│   ├── data_architecture.drawio
-│   ├── data_flow.drawio
-│   ├── data_models.drawio
+│   ├── etl.png
+│   ├── data_architecture.png
+│   ├── data_flow.png
+│   ├── data_models.png
 │   ├── data_catalog.md
 │   └── naming-conventions.md
 │
@@ -93,15 +91,11 @@ data-warehouse-project/
 │   └── gold/                # Star schema models
 │
 ├── tests/                   # Data validation
-├── README.md
-├── LICENSE
-├── .gitignore
-└── requirements.txt
+└── README.md
 ```
 
 ---
 
-# 🚀 Project Requirements
 
 ## 🏗️ Data Engineering
 
@@ -114,31 +108,6 @@ Build a modern data warehouse for analytical reporting.
 - Integrate into unified model  
 - Focus on latest dataset  
 - Document schema clearly  
-
----
-
-## 📊 Data Analytics
-
-### Objective:
-Generate insights using SQL.
-
-### Analysis Areas:
-- Customer Behavior  
-- Product Performance  
-- Sales Trends  
-
-### Outcome:
-- Business insights  
-- KPI-driven decisions  
-
----
-
-# 📊 Example Use Cases
-
-- Top-selling products  
-- Customer segmentation  
-- Monthly sales analysis  
-- Revenue trends  
 
 ---
 
@@ -157,26 +126,5 @@ Generate insights using SQL.
 - Build a data warehouse from scratch  
 - Understand ETL pipelines  
 - Learn star schema modeling  
-- Perform SQL-based analytics  
 
 ---
-
-# 🛡️ License
-
-This project is licensed under the **MIT License**.
-
----
-
-# 🤝 Contributing
-
-Contributions are welcome!  
-Feel free to fork and submit a pull request.
-
----
-
-# ⭐ Support
-
-If you like this project:
-- Star ⭐ the repo  
-- Share it  
-- Use it in your portfolio  
