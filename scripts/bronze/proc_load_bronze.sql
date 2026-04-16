@@ -67,7 +67,6 @@ BEGIN
 		PRINT '>> Truncating Table : bronze.crm_sales_details'
 		TRUNCATE TABLE bronze.crm_sales_details;
 
-		SET @start_time = GETDATE();
 		PRINT '>> Inserting Data Into : bronze.crm_sales_details'
 		BULK INSERT bronze.crm_sales_details
 		FROM 'D:\GITHUB\SQL DWH PROJECT\datasets\source_crm\sales_details.csv'
